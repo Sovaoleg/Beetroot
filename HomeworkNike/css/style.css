@@ -63,23 +63,34 @@ a {
 /*#COMMON*/
 .main-container{
 	padding-top: 20px;
-	text-align: center;
 }
 .main-image{
 	float: left;
-	width: 400px;
-	padding: 52px 0 46px;
+	width: 440px;
+	padding: 52px 0 0;	
+}
+.main-image__container{
+	text-align: center;
+	margin-right: 40px;
+	position: relative;
+}
+.main-image__link{
+	width: 329px;
+	height: 159px;
+	display: inline-block;
 	
+}
+.main-image__container--style{
+	margin-bottom: 63px;
 }
 .main-container__letters{
 	float: right;
-	width: 286px;
+	width: 246px;
 	font-family: "Museo Sans Rounded";
 	font-size: 14px;
 	color: #82868c;
 	font-weight: 100;
 	text-align: left;
-	padding-left: 40px;
 	
 	
 }
@@ -88,11 +99,14 @@ a {
  font-size: 24px;
  font-weight: 300;
  margin: 0;
- padding-bottom: 12px;
+ margin-bottom: 12px;
  color: #e1e1e1;
 }
-.evaluation-item{
-	padding-top: 22px;
+.main-container__letters--pstyle{
+	margin-bottom: 22px;
+}
+.evaluation-wrapper{
+	margin-bottom: 25px;
 }
 .evaluation-item__list{
 	list-style: none;
@@ -148,7 +162,6 @@ a {
 } 
 .buttons{
 	font-size: 0;
-	padding-top: 25px;
 }
 .buttons__container{
 	width: 68px;
@@ -159,10 +172,10 @@ a {
 	color:#797d84;
 	position: relative;
     display: inline-block;
+    text-align: center;
 }
 .buttons__container:after{
 content: url("../img/botton.png");
-  padding: 0 8px;
   font-size: 12px;
   position: absolute;
   right: 3px;
@@ -171,23 +184,24 @@ content: url("../img/botton.png");
   pointer-events: none;
   width: 11px;
   height: 6px;
+  margin-right: 7px;
 }
 .buttons__container--style{
-	width: 68px;
 	height: 31px;
 	background: transparent;
 	outline: none;
 	border: none;
 	color:#797d84;
 	font-size: 14px;
-	padding-left: 10px;	
+	margin-right: 20px;
 	cursor: pointer;
+	padding: 0;
 }
-.buttons__container--padding{
-	margin-left: 3px;
+.buttons__container{
+	margin-bottom: 29px;
 }
-.button__bigbt{
-	padding-top: 29px;
+.buttons__container:first-child {
+	margin-right: 3px;
 }
 .button__bigbt--style{
 	width: 184px;
@@ -205,10 +219,6 @@ content: url("../img/botton.png");
 }
 .main-footer{
 	padding-top: 22px;
-}
-.scroll{
-	width: 400px;
-	text-align: center;
 }
 .scroll__item{
 	display: inline-block;
