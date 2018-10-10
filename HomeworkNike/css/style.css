@@ -235,6 +235,10 @@ content: url("../img/botton.png");
 .lightblue{
 	background-color: #29e3ea;
 }
+.checkout-style{
+	border: 1px solid #7a7f87;
+ 	transform: scale(1.4);
+}
 .cf{
 	clear: both;
 }
