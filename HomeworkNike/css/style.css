@@ -222,12 +222,14 @@ content: url("../img/botton.png");
 }
 .scroll__item{
 	display: inline-block;
-	padding-left: 5px;
 }
 .scroll__scroll{
 	width: 10px;
 	height: 10px;
 	border-radius: 50%;
+}
+.scroll__item:not(:last-child) {
+	margin-right: 5px;
 }
 .scroll__scroll:hover{
  	border: 1px solid #7a7f87;
