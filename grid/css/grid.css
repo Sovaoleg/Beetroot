@@ -1,0 +1,60 @@
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 15px;
+}
+.ba-row{
+	margin: 0 -15px;
+	clear: both;
+}
+.ba-row:not(:last-child){
+ margin-bottom: 30px; 
+}
+.ba-row::before,
+.ba-row::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+[class*="ba-col-"]{
+	float: left;
+	padding: 0 15px;	
+}
+.ba-col-1{
+	width: calc(100% / 12);
+}
+.ba-col-2{
+	width: calc(100% / 12 * 2);
+}
+.ba-col-3{
+	width: calc(100% / 12 * 3);
+}
+.ba-col-4{
+	width: calc(100% / 12 * 4);
+}
+.ba-col-5{
+	width: calc(100% / 12 * 5);
+}
+.ba-col-6{
+	width: calc(100% / 12 * 6);
+	max-width: 600px;
+}
+.ba-col-7{
+	width: calc(100% / 12 * 7);
+}
+.ba-col-8{
+	width: calc(100% / 12 * 8);
+}
+.ba-col-9{
+	width: calc(100% / 12 * 9);
+}
+.ba-col-10{
+	width: calc(100% / 12 * 10);
+}
+.ba-col-11{
+	width: calc(100% / 12 * 11);
+}
+.ba-col-12{
+	width: calc(100% / 12 * 12);
+}
