@@ -1,0 +1,43 @@
+.main-footer{
+	padding: 1em 0;
+	.footer-container{
+		border-top: 1px solid rgba($white-color, .1);
+		padding: 1.5em 0;
+		&__text{
+			text-align: center;
+		}
+	}
+	.contact-info{
+		height: 100%;
+		padding: 1em;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+		text-align: center;
+		&:hover span{
+			border-bottom: none;
+		}
+		&:hover .fas{
+			color: $white-color;
+		}
+		&:hover .contact-info__link{
+			border-bottom: 2px solid darkred;
+		}
+		.fas{
+			font-size: 1.5em;
+			color: darkred;
+		}
+		&__text span{
+			font-weight: 200;
+			font-size: 1.2em;
+			border-bottom: 2px solid darkred;
+			font-family: $decor-font;
+			font-weight: 500;
+		}
+		&__link{
+			color: #ffffff;
+			text-decoration: none;
+		}
+	}
+}
